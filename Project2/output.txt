@@ -1,0 +1,219 @@
+Waiting clients(3,2,3); (6,4,3); (2,4,4); (23,6,3); (21,6,4); (12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Time 0
+Waiting clients(3,2,3); (6,4,3); (2,4,4); (23,6,3); (21,6,4); (12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: closed
+
+Time 1
+Waiting clients(3,2,3); (6,4,3); (2,4,4); (23,6,3); (21,6,4); (12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: closed
+
+Time 2
+Waiting clients(6,4,3); (2,4,4); (23,6,3); (21,6,4); (12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=3, arrivalTime=2, serviceTime=3
+Queue 2: closed
+
+Time 3
+Waiting clients(6,4,3); (2,4,4); (23,6,3); (21,6,4); (12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=3, arrivalTime=2, serviceTime=2
+Queue 2: closed
+
+Time 4
+Waiting clients(23,6,3); (21,6,4); (12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=3, arrivalTime=2, serviceTime=1
+Queue 2: Task:ID=6, arrivalTime=4, serviceTime=3
+
+Time 5
+Waiting clients(23,6,3); (21,6,4); (12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: Task:ID=6, arrivalTime=4, serviceTime=2
+
+Time 6
+Waiting clients(12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=23, arrivalTime=6, serviceTime=3
+Queue 2: Task:ID=6, arrivalTime=4, serviceTime=1
+
+Time 7
+Waiting clients(12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=23, arrivalTime=6, serviceTime=2
+Queue 2: closed
+
+Time 8
+Waiting clients(12,9,2); (20,9,3); (9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=23, arrivalTime=6, serviceTime=1
+Queue 2: closed
+
+Time 9
+Waiting clients(9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=12, arrivalTime=9, serviceTime=2
+Queue 2: Task:ID=20, arrivalTime=9, serviceTime=3
+
+Time 10
+Waiting clients(9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=12, arrivalTime=9, serviceTime=1
+Queue 2: Task:ID=20, arrivalTime=9, serviceTime=2
+
+Time 11
+Waiting clients(9,12,4); (7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: Task:ID=20, arrivalTime=9, serviceTime=1
+
+Time 12
+Waiting clients(7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=9, arrivalTime=12, serviceTime=4
+Queue 2: closed
+
+Time 13
+Waiting clients(7,14,3); (18,14,3); (16,14,4); (14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=9, arrivalTime=12, serviceTime=3
+Queue 2: closed
+
+Time 14
+Waiting clients(14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=9, arrivalTime=12, serviceTime=2
+Queue 2: Task:ID=7, arrivalTime=14, serviceTime=3
+
+Time 15
+Waiting clients(14,15,3); (5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=9, arrivalTime=12, serviceTime=1
+Queue 2: Task:ID=7, arrivalTime=14, serviceTime=2
+
+Time 16
+Waiting clients(5,17,4); (10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=14, arrivalTime=15, serviceTime=3
+Queue 2: Task:ID=7, arrivalTime=14, serviceTime=1
+
+Time 17
+Waiting clients(10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=14, arrivalTime=15, serviceTime=2
+Queue 2: Task:ID=5, arrivalTime=17, serviceTime=4
+
+Time 18
+Waiting clients(10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=14, arrivalTime=15, serviceTime=1
+Queue 2: Task:ID=5, arrivalTime=17, serviceTime=3
+
+Time 19
+Waiting clients(10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: Task:ID=5, arrivalTime=17, serviceTime=2
+
+Time 20
+Waiting clients(10,21,4); (15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: Task:ID=5, arrivalTime=17, serviceTime=1
+
+Time 21
+Waiting clients(15,22,3); (22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=10, arrivalTime=21, serviceTime=4
+Queue 2: closed
+
+Time 22
+Waiting clients(22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=10, arrivalTime=21, serviceTime=3
+Queue 2: Task:ID=15, arrivalTime=22, serviceTime=3
+
+Time 23
+Waiting clients(22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=10, arrivalTime=21, serviceTime=2
+Queue 2: Task:ID=15, arrivalTime=22, serviceTime=2
+
+Time 24
+Waiting clients(22,24,3); (17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=10, arrivalTime=21, serviceTime=1
+Queue 2: Task:ID=15, arrivalTime=22, serviceTime=1
+
+Time 25
+Waiting clients(17,26,4); (4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=22, arrivalTime=24, serviceTime=3
+Queue 2: closed
+
+Time 26
+Waiting clients(4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=22, arrivalTime=24, serviceTime=2
+Queue 2: Task:ID=17, arrivalTime=26, serviceTime=4
+
+Time 27
+Waiting clients(4,27,2); (8,27,4); (13,28,2); (24,28,3); (25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=22, arrivalTime=24, serviceTime=1
+Queue 2: Task:ID=17, arrivalTime=26, serviceTime=3
+
+Time 28
+Waiting clients(25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=4, arrivalTime=27, serviceTime=2
+Queue 2: Task:ID=17, arrivalTime=26, serviceTime=2
+
+Time 29
+Waiting clients(25,29,3); (11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=4, arrivalTime=27, serviceTime=1
+Queue 2: Task:ID=17, arrivalTime=26, serviceTime=1
+
+Time 30
+Waiting clients(11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=25, arrivalTime=29, serviceTime=3
+Queue 2: closed
+
+Time 31
+Waiting clients(11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=25, arrivalTime=29, serviceTime=2
+Queue 2: closed
+
+Time 32
+Waiting clients(11,37,2); (19,37,3); (1,40,2); 
+Queue 1: Task:ID=25, arrivalTime=29, serviceTime=1
+Queue 2: closed
+
+Time 33
+Waiting clients(11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: closed
+
+Time 34
+Waiting clients(11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: closed
+
+Time 35
+Waiting clients(11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: closed
+
+Time 36
+Waiting clients(11,37,2); (19,37,3); (1,40,2); 
+Queue 1: closed
+Queue 2: closed
+
+Time 37
+Waiting clients(1,40,2); 
+Queue 1: Task:ID=11, arrivalTime=37, serviceTime=2
+Queue 2: Task:ID=19, arrivalTime=37, serviceTime=3
+
+Time 38
+Waiting clients(1,40,2); 
+Queue 1: Task:ID=11, arrivalTime=37, serviceTime=1
+Queue 2: Task:ID=19, arrivalTime=37, serviceTime=2
+
+Time 39
+Waiting clients(1,40,2); 
+Queue 1: closed
+Queue 2: Task:ID=19, arrivalTime=37, serviceTime=1
+
+Time 40
+Waiting clients
+Queue 1: Task:ID=1, arrivalTime=40, serviceTime=2
+Queue 2: closed
+
+Time 41
+Waiting clients
+Queue 1: Task:ID=1, arrivalTime=40, serviceTime=1
+Queue 2: closed
+
+Time 42
+Waiting clients
+Queue 1: closed
+Queue 2: closed
+
+Average waiting time: 4.6111
+Average service time: 4.3333
+Peak hour: 28

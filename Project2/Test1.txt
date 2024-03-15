@@ -1,0 +1,154 @@
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Time 0
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 1
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 2
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 3
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 4
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 5
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 6
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 7
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 8
+Waiting clients(4,9,3); (2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 9
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: Task:ID=4, arrivalTime=9, serviceTime=3
+Queue 2: closed
+
+Time 10
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: Task:ID=4, arrivalTime=9, serviceTime=2
+Queue 2: closed
+
+Time 11
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: Task:ID=4, arrivalTime=9, serviceTime=1
+Queue 2: closed
+
+Time 12
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 13
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 14
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 15
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 16
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 17
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 18
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 19
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 20
+Waiting clients(2,21,4); (1,22,3); (3,24,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 21
+Waiting clients(1,22,3); (3,24,4); 
+Queue 1: Task:ID=2, arrivalTime=21, serviceTime=4
+Queue 2: closed
+
+Time 22
+Waiting clients(3,24,4); 
+Queue 1: Task:ID=2, arrivalTime=21, serviceTime=3
+Queue 2: Task:ID=1, arrivalTime=22, serviceTime=3
+
+Time 23
+Waiting clients(3,24,4); 
+Queue 1: Task:ID=2, arrivalTime=21, serviceTime=2
+Queue 2: Task:ID=1, arrivalTime=22, serviceTime=2
+
+Time 24
+Waiting clients(3,24,4); 
+Queue 1: Task:ID=2, arrivalTime=21, serviceTime=1
+Queue 2: Task:ID=1, arrivalTime=22, serviceTime=1
+
+Time 25
+Waiting clients
+Queue 1: Task:ID=3, arrivalTime=24, serviceTime=4
+Queue 2: closed
+
+Time 26
+Waiting clients
+Queue 1: Task:ID=3, arrivalTime=24, serviceTime=3
+Queue 2: closed
+
+Time 27
+Waiting clients
+Queue 1: Task:ID=3, arrivalTime=24, serviceTime=2
+Queue 2: closed
+
+Time 28
+Waiting clients
+Queue 1: Task:ID=3, arrivalTime=24, serviceTime=1
+Queue 2: closed
+
+Time 29
+Waiting clients
+Queue 1: closed
+Queue 2: closed
+
+Average waiting time: 3.7500
+Average service time: 3.5000
+Peak hour: 9
